@@ -1,0 +1,127 @@
+.body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding: 100px 20vw;
+}
+
+.blue {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    267deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(60, 49, 221, 1) 0%,
+    rgba(31, 110, 126, 1) 77%
+  );
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: center;
+}
+.profilepic {
+    flex-direction: row;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  align-items: center;
+  justify-content: center;
+}
+
+.red {
+  background: #dd3f31;
+}
+
+.dark {
+  background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+}
+
+.pink {
+  background: rgb(177, 29, 163);
+  background: linear-gradient(
+    90deg,
+    rgba(177, 29, 163, 1) -9%,
+    rgba(202, 191, 3, 1) 98%
+  );
+}
+
+.fresco {
+  background: linear-gradient(90deg, #fdbb2d 0%, #3a1c71 100%);
+}
+
+#portfolio-page {
+  background-color: red;
+}
+
+#intro {
+  /* padding-left: 60%;
+  display: flex;
+  flex-direction: column; */
+  position: relative;
+  /* top: -340px; */
+}
+
+#avi {
+  max-height: 400px;
+  max-width: 400px;
+  border: 0.01em solid #555;
+  border-color: black;
+  border-radius: 50%;
+  position: relative;
+  left: -180px;
+  box-shadow: 10px 10px 10px 10px #1f1e1e;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+#avi:hover {
+  transform: scale(1.05);
+}
+
+#aboutLink {
+  /* position: relative; */
+  color: white;
+  border-color: black;
+  /* top: -360px;
+  left: 625px; */
+}
+
+#aboutLink:hover {
+  color: white;
+  background-color: #3a3a3d;
+}
+
+.btn-group {
+  display: flex;
+  position: relative;
+  background-color: #3a3a3d;
+  left: -140px;
+  top: 50px;
+  box-shadow: 2px 2px 2px 2px #1f1e1e;
+}
+
+.card-text {
+  color: black;
+}
